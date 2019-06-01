@@ -1,5 +1,7 @@
 function fizzBuzz(number) {
-    if (number === 10) {
-        return 10;
+    const isNumberEqualBy10 = number === 10;
+    const TEN = 10;
+    if (isNumberEqualBy10) {
+        return TEN;
     }
 }

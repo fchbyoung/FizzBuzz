@@ -24,7 +24,7 @@ QUnit.test("fizzbuzz test", function (assert) {
 });
 
 QUnit.test("number test", function (assert) {
-    let number = 19;
+    let number = 1;
     let actual = fizzBuzz(number);
     let expected = number;
     assert.equal(actual, expected, "Not Divisible by 3 & 5");

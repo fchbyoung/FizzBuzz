@@ -15,3 +15,17 @@ QUnit.test("buzz test", function (assert) {
     let expected = 'BUZZ';
     assert.equal(actual, expected, "Divisible by 5");
 });
+
+QUnit.test("fizzbuzz test", function (assert) {
+    let number = 15;
+    let actual = fizzBuzz(number);
+    let expected = 'FIZZBUZZ';
+    assert.equal(actual, expected, "Divisible by 3 & 5");
+});
+
+QUnit.test("number test", function (assert) {
+    let number = 19;
+    let actual = fizzBuzz(number);
+    let expected = number;
+    assert.equal(actual, expected, "Not Divisible by 3 & 5");
+});

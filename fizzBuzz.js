@@ -1,10 +1,9 @@
 function fizzBuzz(number) {
-    const isNumberEqualBy10 = number === 10;
-    const TEN = '10';
+    const isNumberEqualBy5 = number % 5 === 0;
     const isDiviableBy3 = number % 3 === 0;
-    if (isNumberEqualBy10) {
-        return TEN;
+    if (isNumberEqualBy5) {
+        return "BUZZ";
     } else if (isDiviableBy3) {
-        return isDiviableBy3;
+        return "FIZZ";
     }
 }
